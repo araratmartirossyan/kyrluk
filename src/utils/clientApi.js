@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:8001/api/v1'
+const API_URL = 'http://api.kyrluk.ru/api/v1'
 
 const clientApi = (method, url, params = {}) =>
   new Promise((resolve, reject) => {
